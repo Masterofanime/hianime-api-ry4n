@@ -86,27 +86,21 @@ hianime-api is a comprehensive RESTful API that provides endpoints to retrieve a
 
 ## Video Integration
 
-For video playback, it is recommended to use the following external player. You can embed it using an `iframe` with the episode ID retrieved from this API.
+For video playback, it is recommended to use the following external player. You can embed it using an `iframe` with the dynamic parameters retrieved from this API.
 
-**Base Embed URL:** `https://cdn.4animo.xyz/embed/`
+**Embed Example URL:** `https://cdn.4animo.xyz/api/embed/hd-1/13825/sub?k=1&autoPlay=1&skipIntro=1&skipOutro=1`
 
 **Usage Example:**
 
 ```html
-<iframe 
-  src="https://cdn.4animo.xyz/embed/your-episode-id" 
-  width="100%" 
-  height="500px" 
-  frameborder="0" 
-  allowfullscreen
-></iframe>
+<iframe src="https://cdn.4animo.xyz/api/embed/hd-1/13825/sub?k=1&autoPlay=1&skipIntro=1&skipOutro=1" width="100%" height="500" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"> </iframe>
 ```
 
 ## Used By
 
 This API is used by the following projects:
 
-- **[Animo](https://animo.qzz.io/)**: A comprehensive anime streaming platform that leverages this API for real-time anime data, schedules, and streaming links. Check it out to see the API in action!
+- **[ANIMO](https://4animo.xyz/)**: A comprehensive anime streaming platform that leverages this API for real-time anime data, schedules, and streaming links. Check it out to see the API in action!
 
 ---
 
