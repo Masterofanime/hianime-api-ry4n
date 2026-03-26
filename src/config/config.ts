@@ -1,5 +1,5 @@
 const config = {
-  baseurl: 'https://hianime.to',
+  baseurl: 'https://aniwatchtv.to',
   baseurl2: 'https://aniwatchtv.to',
   origin: '*',
   port: 5000,
